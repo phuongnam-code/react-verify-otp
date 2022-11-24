@@ -1,0 +1,60 @@
+:root {
+  --color-text: #475569;
+  --color-placeholder: #e5e7eb;
+  --bg-disabled: #f3f4f6;
+  --border-normal: #8f90a6;
+  --border-focus: #0ea5e9;
+  --border-error: #ef4444;
+  --border-disabled: #d1d5db;
+}
+
+.otp-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 360px;
+  column-gap: 10px;
+}
+
+.otp-input-field::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--color-placeholder);
+  opacity: 1; /* Firefox */
+}
+
+.otp-input-field:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--color-placeholder);
+}
+
+.otp-input-field::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--color-placeholder);
+}
+
+.otp-input-field {
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid var(--border-normal);
+  outline: none;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.otp-input-field:disabled {
+  cursor: not-allowed;
+  border-color: var(--border-disabled);
+  background: var(--bg-disabled);
+}
+
+.otp-input-field:focus {
+  border-color: var(--border-focus);
+}
+
+.otp-input-field.otp-input-field-error {
+  border-color: var(--border-error);
+}

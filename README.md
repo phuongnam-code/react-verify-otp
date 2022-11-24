@@ -192,3 +192,10 @@ export default App
     <td>Get the value of the OTP.</td>
   </tr>
 </table>
+
+## Changelog
+### v1:
+* **v1.0.0** - The first, create and build project push to github, fix deploy to vercel, publish to npm package management.
+* **v1.1.0** - Add description to package.json, show info to npm package management (keywords, author, license, homepage, repository).
+* **v1.1.1** - Fix error import package when use reality (but do not success :(().
+* **v1.1.2** - I'm trying fix error import package when use reality.

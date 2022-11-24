@@ -4,7 +4,7 @@ Description: react-verify-otp a fully customizable, one-time password input comp
 
 ![see here](https://raw.githubusercontent.com/phuongnam-code/shared/master/image/any-jpg-png-etc/react-verify-otp.PNG)
 
-<!-- [Demo](url - coming soon updated) -->
+[Demo](https://react-verify-otp.vercel.app/)
 
 ## Installation
 

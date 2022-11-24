@@ -1,7 +1,7 @@
 {
   "name": "react-verify-otp",
   "private": false,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "author": "PhuongNam <nguyenducnam.work@gmail.com> (https://github.com/phuongnam-code)",
   "license": "MIT",
   "homepage": "https://react-verify-otp.vercel.app/",
+  "main": "./dist/assets/index.7daa71ed.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

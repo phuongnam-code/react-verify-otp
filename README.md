@@ -25,6 +25,7 @@ pnpm install react-verify-otp
 ```jsx
 import { useState, useRef } from 'react';
 import OtpInput from 'react-verify-otp';
+import '/node_modules/react-verify-otp/dist/style.css';
 
 const App = () => {
   const otpRef = useRef(null);
@@ -199,3 +200,6 @@ export default App
 * **v1.1.0** - Add description to package.json, show info to npm package management (keywords, author, license, homepage, repository).
 * **v1.1.1** - Fix error import package when use reality (but do not success :(().
 * **v1.1.2** - I'm trying fix error import package when use reality.
+* **v1.1.3** - It has been successfully fixed.
+* **v1.2.3** - Update typings fix warning & import css file (but fail).
+* **v1.3.3** - I'm trying import css dynamic, however, I added a temporary guide in this description.

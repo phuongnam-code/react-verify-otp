@@ -1,7 +1,7 @@
 {
   "name": "react-verify-otp",
   "private": false,
-  "version": "1.2.3",
+  "version": "1.3.3",
   "type": "module",
   "repository": {
     "type": "git",
@@ -22,16 +22,21 @@
   "license": "MIT",
   "homepage": "https://react-verify-otp.vercel.app/",
   "files": [
-    "dist"
+    "dist",
+    "dist/style.css"
   ],
   "typings": "typings/index.d.ts",
-  "main": "./dist/react-verify-otp.umd.js",
-  "module": "./dist/react-verify-otp.es.js",
+  "main": "dist/react-verify-otp.umd.js",
+  "module": "dist/react-verify-otp.es.js",
+  "browser": "dist/react-verify-otp.umd.js",
   "exports": {
     ".": {
       "import": "./dist/react-verify-otp.es.js",
       "require": "./dist/react-verify-otp.umd.js"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/phuongnam-code/react-verify-otp/issues"
   },
   "scripts": {
     "dev": "vite",

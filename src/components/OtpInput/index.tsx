@@ -108,8 +108,9 @@ const index: FC<OtpInputProps> = forwardRef((props, ref) => {
   };
 
   const handleOnKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    const { code, target } = event;
-    const value = target.value;
+    const { code } = event;
+    const target = event.target as HTMLInputElement;
+    const value = (event.target as HTMLInputElement).value;
 
     // keep the selection range position if the value doesn't change
     target.select();
